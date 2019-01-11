@@ -20,6 +20,19 @@ https://chatterbot.readthedocs.io/
 
 1 - Com o Python 3 instalado adicione a a library ChatterBot
 
-  ''pip install chatterbot''
-  
-2 - Baixe o arquivo 'ChatBotExemplo'
+```
+pip install chatterbot
+```
+
+2 - Baixe o arquivo 'ChatBotExemplo' em seu computador e inicie o Código Inicial
+
+```
+python ChatBotExemplo.py
+```
+
+Para fechar digite "Sair"
+
+3 - Faça as alterações e adições necessárias no código. Não se esqueça de testar tudo antes de enviar
+
+4 - Envie o seu projeto para avaliação
+
