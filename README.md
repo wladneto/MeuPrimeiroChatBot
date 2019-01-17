@@ -38,5 +38,7 @@ Para fechar digite "Sair"
 
 
 ## Contribuiçao
-<a href="https://sourcerer.io/wladneto"><img src="https://avatars2.githubusercontent.com/u/15970264?v=4" height="50px" width="50px" alt=""/></a>
+<a href="https://sourcerer.io/wladneto"><img src="https://img.shields.io/badge/Python-8%20commits-orange.svg" alt=""></a>
+
+
 
