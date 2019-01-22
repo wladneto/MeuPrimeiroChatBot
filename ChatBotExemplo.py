@@ -1,24 +1,27 @@
 # -*- coding: utf-8 -*-
 from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
 
 # Criando novo ChatBot
 chatbot = ChatBot(
     'MeuPrimeiroBot',
-    trainer='chatterbot.trainers.ListTrainer'
+    #trainer = 'chatterbot.trainers.ListTrainer'
 )
 
+trainer = ListTrainer(chatbot)
+
 #Lista inicial
-conversa_Humana = ['Oi','Olá','Tudo bem?','Estou bem']
-conversa_Negocio = ['Onde vc trabalha?', 'Trabalho na Algar Tech']
+conversa_Humana =( ['Oi','Olá','Tudo bem?','Estou bem','Onde vc trabalha?', 'Trabalho na Algar Tech'] )
 
 #Treinando o ChatBot nos conteudos
-chatbot.train(conversa_Humana)
-chatbot.train(conversa_Negocio)
+trainer.train(conversa_Humana)
+#trainer.train(conversa_Negocio)
 
 #Iniciando Loop
 chatativo = True
-while chatativo == True:
-    pergunta = input("Eu: ")
+pergunta = ""
+while chatativo == True: 
+    pergunta = input("Eu: ",)
     if pergunta == "Sair":
         chatativo = False
     else:
